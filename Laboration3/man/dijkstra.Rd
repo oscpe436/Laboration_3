@@ -7,9 +7,9 @@
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{A graph that is defined by a data frame containing the three columns v1, v2 and w. v1 and v2 are the names of the vertices in the graph and w is the weight (distance) of the path from v1 to v2.}
+\item{graph}{A graph that is defined by a data frame containing the three columns \code{v1}, \code{v2} and \code{w}. \code{v1} and \code{v2} are the names of the vertices in the graph and \code{w} is the weight (distance) of the path from \code{v1} to \code{v2}.}
 
-\item{init_node}{The node from which the distances are to be calculated. The init_node must be in the set of vertices defined in v1 and v2.}
+\item{init_node}{The node from which the distances are to be calculated. \code{init_node} must be in the set of vertices defined by \code{v1} and \code{v2}.}
 }
 \value{
 A vector containing the least weight (shortest distance) from \code{init_node} to all other vertices.

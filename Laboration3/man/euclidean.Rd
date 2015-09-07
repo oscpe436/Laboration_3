@@ -20,9 +20,9 @@ The euclidean algorithm
 }
 \examples{
 euclidean(123612, 13892347912)
-# 4
+# [1] 4
 euclidean(100, 1000)
-# 100
+# [1] 100
 }
 \seealso{
 \code{\link{dijkstra}} for our other function.

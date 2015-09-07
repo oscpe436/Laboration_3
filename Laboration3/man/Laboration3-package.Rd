@@ -3,40 +3,34 @@
 \alias{Laboration3}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+Performs a few simple algorithms.
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+This package contains two functions, the euclidian() and the dijkstra(). The first performs an euclidean algorithm for two inputs x and y to find the greatest common divisor and the second uses the dijkstra algorithm to calculate the shortest paths between a vertex in a graph and all of the other vertices in it.
 }
 \details{
 \tabular{ll}{
 Package: \tab Laboration3\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
+Version: \tab 0.9\cr
 Date: \tab 2015-09-07\cr
-License: \tab What license is it under?\cr
+License: \tab None \cr
 }
-~~ An overview of how to use the package, including ~~
-~~ the most important functions ~~
+
 }
 \author{
-Who wrote it
+Oscar Pettersson
+Vuong Tran
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Maintainer: Send your complaints to <oscpe436@student.liu.se>
 }
 \references{
-~~ Literature or other references for background information ~~
+R-packages (Hadley Wickham): \url{http://r-pkgs.had.co.nz/}
 }
-~~ Optionally other standard keywords, one per line, ~~
-~~ from file KEYWORDS in the R documentation directory ~~
 \keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
 \examples{
-~~ simple examples of the most important functions ~~
+euclidean(75, 100)
+# [1] 25
+dijkstra(wiki_graph, 3)
+# [1]  9 10  0 11 11  2
 }

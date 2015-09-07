@@ -7,9 +7,9 @@
 #' The euclidean algorithm calculates the greatest common divisor of its two input variables. It is explained at the Wikipedia page \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}.
 #' @examples
 #' euclidean(123612, 13892347912)
-#' # 4
+#' # [1] 4
 #' euclidean(100, 1000)
-#' # 100
+#' # [1] 100
 #' @seealso \code{\link{dijkstra}} for our other function.
 
 euclidean <- function(x,y){
@@ -24,8 +24,8 @@ euclidean <- function(x,y){
 
 #' Dijkstra's algorithm
 #' 
-#' @param graph A graph that is defined by a data frame containing the three columns v1, v2 and w. v1 and v2 are the names of the vertices in the graph and w is the weight (distance) of the path from v1 to v2.
-#' @param init_node The node from which the distances are to be calculated. The init_node must be in the set of vertices defined in v1 and v2.
+#' @param graph A graph that is defined by a data frame containing the three columns \code{v1}, \code{v2} and \code{w}. \code{v1} and \code{v2} are the names of the vertices in the graph and \code{w} is the weight (distance) of the path from \code{v1} to \code{v2}.
+#' @param init_node The node from which the distances are to be calculated. \code{init_node} must be in the set of vertices defined by \code{v1} and \code{v2}.
 #' @return A vector containing the least weight (shortest distance) from \code{init_node} to all other vertices.
 #' The Dijkstra's algorithm calculates the shortest distance from a given vertex in a graph and all other vertices. It is explained at the Wikipedia page \url{https://en.wikipedia.org/wiki/Dijkstra's_algorithm}.
 #' @examples
@@ -94,7 +94,7 @@ dijkstra <- function(graph, init_node){
 #' \describe{
 #'   \item{v1}{containing a vector of start nodes}
 #'   \item{v2}{containing a vector of end nodes}
-#'   \item{w}{containing the weight of the edges between v1 and v2}
+#'   \item{w}{containing the weight of the edges between \code{v1} and \code{v2}}
 #' }
 #' @source \url{https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif}
 

@@ -8,7 +8,7 @@
 \describe{
   \item{v1}{containing a vector of start nodes}
   \item{v2}{containing a vector of end nodes}
-  \item{w}{containing the weight of the edges between v1 and v2}
+  \item{w}{containing the weight of the edges between \code{v1} and \code{v2}}
 }}
 \source{
 \url{https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif}
