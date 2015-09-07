@@ -1,7 +1,7 @@
 Package: Laboration3
 Type: Package
 Title: Performs a few simple algorithms.
-Version: 0.9
+Version: 0.0.9
 Date: 2015-09-07
 Author: c(
  person("Oscar", "Pettersson", email="oscpe436@student.liu.se", role=c("cre", "aut"),
@@ -9,5 +9,6 @@ Author: c(
 Maintainer: Who to complain to <oscpe436@student.liu.se>
 Description: This package contains two functions, the euclidian() and the dijkstra(). The first performs an euclidean algorithm for two inputs x and y to find the greatest common divisor and the second uses the dijkstra algorithm to calculate the shortest paths between a vertex in a graph and all of the other vertices in it.
 Depends: R (>= 3.0.0)
-License: None
+License: CC0
 LazyData: true
+Suggests: testthat

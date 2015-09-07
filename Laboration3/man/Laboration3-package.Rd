@@ -12,7 +12,7 @@ This package contains two functions, the euclidian() and the dijkstra(). The fir
 \tabular{ll}{
 Package: \tab Laboration3\cr
 Type: \tab Package\cr
-Version: \tab 0.9\cr
+Version: \tab 0.0.9\cr
 Date: \tab 2015-09-07\cr
 License: \tab None \cr
 }
