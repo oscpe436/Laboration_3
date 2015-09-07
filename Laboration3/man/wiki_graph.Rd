@@ -4,7 +4,7 @@
 \name{wiki_graph}
 \alias{wiki_graph}
 \title{An example graph from Wikipedia.}
-\format{A data frame with 18 rows and 3 variables v1, v2 and w:
+\format{A data frame with 18 rows and 3 variables \code{v1}, \code{v2} and \code{w}:
 \describe{
   \item{v1}{containing a vector of start nodes}
   \item{v2}{containing a vector of end nodes}
@@ -18,6 +18,9 @@ wiki_graph
 }
 \description{
 A dataset containing egde from a start node to it's neighbour nodes, from a wikipedia page (\url{https://en.wikipedia.org/wiki/Dijkstra's_algorithm}) as an example of how Dijkstra's algorithm works.
+}
+\seealso{
+\code{\link{dijkstra}} for the function to which this example graph is created.
 }
 \keyword{datasets}
 
