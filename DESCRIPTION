@@ -1,7 +1,7 @@
 Package: Laboration3
 Type: Package
 Title: Performs a few simple algorithms
-Version: 0.0.9
+Version: 1.0.0
 Date: 2015-09-07
 Author: c(
  person("Oscar", "Pettersson", email="oscpe436@student.liu.se", role=c("cre", "aut"),
